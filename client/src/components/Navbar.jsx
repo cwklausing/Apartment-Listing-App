@@ -9,7 +9,7 @@ export default function Navbar({ clickHandler, onShowMap, showMap }) {
 
   return (
     <div className="navbar">
-      <span>Filtros</span>
+      <span>Filters</span>
       <Button onClick={() => { clickHandler(); 
                               setToggleArrow(!toggleArrow)} }>
       { !toggleArrow ? <ArrowDropUpIcon/> : <ArrowDropDownIcon /> }

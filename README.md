@@ -4,7 +4,10 @@ The user can see a list view or a map view of apartments for rent in the city of
 
 ## Frontend
 
-The frontend part of the application is in the client folder. This React app is made using create-react-app and can be started using the command `npm start`. The test can be run on some of the components by using the command `npm test`.
+The frontend part of the application is in the client folder. 
+
+Open the `server` directory, run `npm install`, then run `yarn start`
+Open the `client` directory, run `npm install`, then run `yarn start`
 
 ### Map View
 

@@ -14,7 +14,7 @@ export default function List({ loading, error, array }) {
                     <div className="image-container">
                     <img src={item.image} alt="apartment" className="image"></img>
                         <div className="price-box">
-                        <p className="text-space">{item.price} €</p>
+                        <p className="text-space">${item.price}</p>
                         </div>
                     </div>
                     <div className="text-box">
